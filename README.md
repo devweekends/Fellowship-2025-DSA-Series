@@ -1,7 +1,5 @@
 # Fellowship-2025-DSA-Series
 
-## DevWeekend's Data Structures Course
-
 Some considerations while starting with problem-solving till 100+ Leetcode problems are solved:
 
 - Start with the most-easiest problems.
