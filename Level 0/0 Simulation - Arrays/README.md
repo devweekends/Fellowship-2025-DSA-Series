@@ -8,6 +8,7 @@
 6. [Number of Good Pairs](#6-number-of-good-pairs)  
 7. [Shuffle the Array](#7-shuffle-the-array)  
 8. [Move Zeroes](#8-move-zeroes)
+9. [Maximum Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
 
 ## 💡 Suggestions
 
