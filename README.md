@@ -133,6 +133,6 @@ Join our community to grow with peers, solve real-world problems, and prepare fo
 
 [Subscribe to our YouTube](https://www.youtube.com/DevWeekends) for more content.
 
-> ✉️ Questions? Suggestions? Ping us at **devweekends.team@gmail.com**
+> ✉️ Questions? Suggestions? Ping us at **devweekends@gmail.com**
 
 
