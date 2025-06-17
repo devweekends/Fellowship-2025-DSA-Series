@@ -129,7 +129,13 @@ All rights reserved © 2025 Dev Weekends.
 
 Join our community to grow with peers, solve real-world problems, and prepare for top tech roles together and Become a better Engineer . 
 
-[Join our Discord](https://discord.gg/c7Sn3yhvSh)
+
+- 🌍 **Website:** [devweekends.com](https://devweekends.com)
+- 🔗 **Discord:** [Join our Discord](https://discord.com/invite/c7Sn3yhvSh)
+- 💼 **LinkedIn:** [DevWeekends on LinkedIn](https://www.linkedin.com/company/dev-weekends/)
+- 📱 **Instagram:** [@devweekends](https://www.instagram.com/devweekends/)
+- 📕 **Facebook:** [DevWeekends on Facebook](https://www.facebook.com/DevWeekends/)
+- 🌴 **Linktree:** [linktr.ee/DevWeekends](https://linktr.ee/DevWeekends)
 
 [Subscribe to our YouTube](https://www.youtube.com/@devweekends) for more content.
 
