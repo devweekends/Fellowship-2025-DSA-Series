@@ -129,9 +129,9 @@ All rights reserved © 2025 Dev Weekends.
 
 Join our community to grow with peers, solve real-world problems, and prepare for top tech roles together and Become a better Engineer . 
 
-[Join our Discord](https://discord.gg/DevWeekends)
+[Join our Discord](https://discord.gg/c7Sn3yhvSh)
 
-[Subscribe to our YouTube](https://www.youtube.com/DevWeekends) for more content.
+[Subscribe to our YouTube](https://www.youtube.com/@devweekends) for more content.
 
 > ✉️ Questions? Suggestions? Ping us at **devweekends@gmail.com**
 
