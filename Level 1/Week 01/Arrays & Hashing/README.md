@@ -139,33 +139,6 @@ key -> hash() -> index -> store/retrieve at table[index]
 
 ```
 
-### ⚠️ Best Practices (Arrays)
-
-- Avoid out-of-bound access → always check `i < size`.
-- Use `vector` or `ArrayList` instead of raw arrays for flexibility.
-- Prefer 0-based indexing for consistency across languages.
-- Use `sizeof(arr)/sizeof(arr[0])` to get size in static arrays.
-- Pre-initialize large arrays with `memset()` for `0` or `-1`.
-- Use multidimensional arrays for matrix/grid operations.
-
----
-
-## 🔐 Hashing
-
-Hashing is a technique used to **map data to a specific value**, often for fast access, lookup, insertion, or deletion. A **hash function** converts keys into array indices for fast operations (typically O(1) on average).
-
----
-
-### ⚙️ How Hashing Works
-
-1. A **key** is passed to a **hash function**.
-2. The hash function computes a **hash code**, which maps to an **index** in an internal array (bucket).
-3. If two keys map to the same index (**collision**), the structure resolves it via:
-   - **Chaining** (linked lists or dynamic arrays at each index)
-   - **Open addressing** (probe for empty slots)
-
----
-
 ### 💼 Applications
 
 - Caches (e.g., LRU cache)
@@ -233,5 +206,5 @@ Hashing is a technique used to **map data to a specific value**, often for fast 
 - Choose a **good hash function** to avoid collisions.
 - Handle collisions properly (e.g., via **chaining** or **open addressing**).
 - Avoid **mutable keys** (e.g., objects that change after insertion).
-- Monitor **memory usage** — hash tables can be memory intensive.
+- Monitor **memory usage** — hash tables can be memory-intensive.
 - For secure applications (e.g., passwords), use **cryptographic hash functions**.
