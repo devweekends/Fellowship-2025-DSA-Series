@@ -11,12 +11,12 @@
 8. [3Sum](https://leetcode.com/problems/3sum/)  
 
 ### Two Pointers on String
-9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)  
-10. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)  
-11. [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)  
-12. [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)  
-13. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)  
-14. [Largest Merge of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)  
+1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)  
+2. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)  
+3. [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)  
+4. [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/description/)  
+5. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)  
+6. [Largest Merge of Two Strings](https://leetcode.com/problems/largest-merge-of-two-strings/)  
 
 ---
 
