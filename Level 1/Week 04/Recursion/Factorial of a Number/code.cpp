@@ -1,24 +1,24 @@
+
 /*
-Approach: Recursive (Simple Reverse Counting)
+Approach: Recursive Factorial
 
-This function prints numbers from N to 1 using recursion.
-It starts from N and decreases the number by one at each step.
+The factorial of a number n is:
+    n! = n * (n - 1)!
 
-Base Case:
-- If the current number becomes less than 1, we stop recursion.
+We use recursion to multiply n with the factorial of (n - 1),
+until we reach the base case:
+    0! = 1
 
 Time Complexity: O(N)
-- We print N numbers once.
 
 Space Complexity: O(N)
-- Due to recursive calls up to N levels deep.
+- Due to the function call stack.
 */
 
 #include <iostream>
 using namespace std;
 
-void printNTo1(int n) {
-    if (n < 1) return;
-    cout << n << " ";
-    printNTo1(n - 1);
+int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
 }

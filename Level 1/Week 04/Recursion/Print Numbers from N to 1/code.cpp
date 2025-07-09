@@ -1,23 +1,25 @@
-/*
-Approach: Recursive Summation
 
-We recursively add the current number to the result of the sum of numbers before it.
-    sum(n) = n + sum(n - 1)
+/*
+Approach: Recursive (Simple Reverse Counting)
+
+This function prints numbers from N to 1 using recursion.
+It starts from N and decreases the number by one at each step.
 
 Base Case:
-- sum(0) = 0
+- If the current number becomes less than 1, we stop recursion.
 
 Time Complexity: O(N)
-- One call per number from N down to 0.
+- We print N numbers once.
 
 Space Complexity: O(N)
-- Due to call stack depth.
+- Due to recursive calls up to N levels deep.
 */
 
 #include <iostream>
 using namespace std;
 
-int sum(int n) {
-    if (n == 0) return 0;
-    return n + sum(n - 1);
+void printNTo1(int n) {
+    if (n < 1) return;
+    cout << n << " ";
+    printNTo1(n - 1);
 }

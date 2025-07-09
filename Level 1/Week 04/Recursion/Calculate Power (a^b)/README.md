@@ -1,4 +1,8 @@
 ## 📘 Calculate Power (a^b)
+<h2><a href="https://leetcode.com/problems/powx-n/description/">50. Pow(x, n)
+</a></h2>
+
+
 
 ### 📝 Description
 Compute **a^b** using recursion.  

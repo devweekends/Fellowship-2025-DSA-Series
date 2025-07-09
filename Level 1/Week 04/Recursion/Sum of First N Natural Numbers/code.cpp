@@ -1,28 +1,24 @@
+
 /*
-Approach: Reverse Number Using Recursion
+Approach: Recursive Summation
 
-We recursively reverse the digits of the number and compare with the original.
-
-To reverse:
-    rev = rev * 10 + n % 10
+We recursively add the current number to the result of the sum of numbers before it.
+    sum(n) = n + sum(n - 1)
 
 Base Case:
-- If n becomes 0, return the reversed number.
+- sum(0) = 0
 
-Time Complexity: O(log10(n))
-- One call per digit.
+Time Complexity: O(N)
+- One call per number from N down to 0.
 
-Space Complexity: O(log10(n))
+Space Complexity: O(N)
+- Due to call stack depth.
 */
 
 #include <iostream>
 using namespace std;
 
-int reverseNum(int n, int rev = 0) {
-    if (n == 0) return rev;
-    return reverseNum(n / 10, rev * 10 + n % 10);
-}
-
-bool isPalindrome(int n) {
-    return n == reverseNum(n);
+int sum(int n) {
+    if (n == 0) return 0;
+    return n + sum(n - 1);
 }
