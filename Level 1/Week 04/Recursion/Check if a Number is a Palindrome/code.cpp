@@ -1,23 +1,30 @@
 /*
-Approach: Recursive Factorial
+Approach: Reverse Number Using Recursion
 
-The factorial of a number n is:
-    n! = n * (n - 1)!
+We recursively reverse the digits of the number and compare with the original.
 
-We use recursion to multiply n with the factorial of (n - 1),
-until we reach the base case:
-    0! = 1
+To reverse:
+    rev = rev * 10 + n % 10
 
-Time Complexity: O(N)
+Base Case:
+- If n becomes 0, return the reversed number.
 
-Space Complexity: O(N)
-- Due to the function call stack.
+Time Complexity: O(log10(n))
+- One call per digit.
+
+Space Complexity: O(log10(n))
 */
 
 #include <iostream>
 using namespace std;
 
-int factorial(int n) {
-    if (n == 0) return 1;
-    return n * factorial(n - 1);
+int reverseNum(int n, int rev = 0) {
+    if (n == 0) return rev;
+    return reverseNum(n / 10, rev * 10 + n % 10);
 }
+
+bool isPalindrome(int n) {
+    return n == reverseNum(n);
+}
+
+
