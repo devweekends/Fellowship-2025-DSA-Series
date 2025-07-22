@@ -218,3 +218,15 @@ Heaps and priority queues are fundamental data structures that provide efficient
 - Choose max heap for largest elements, min heap for smallest
 - Priority queues are the natural choice for priority-based problems
 - Use STL's `priority_queue` for most implementations
+
+---
+
+## 📝 LeetCode Problems (Heaps)
+
+- [253. Meeting Rooms II](./253. Meeting Rooms II/)
+- [703. Kth Largest Element in a Stream](./703. Kth Largest Element in a Stream/)
+- [1046. Last Stone Weight](./1046. Last Stone Weight/)
+- [414. Third Maximum Number](./414. Third Maximum Number/)
+- [Meeting Rooms III](./Meeting Rooms III/)
+- [IPO](./IPO/)
+- [Find Median from Data Stream](./Find Median from Data Stream/)
